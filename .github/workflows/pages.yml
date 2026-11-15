@@ -26,7 +26,7 @@ jobs:
       - run: npm test
       - run: npm run build
         env:
-          VITE_SERVER_URL: ${{ vars.VITE_SERVER_URL || 'https://pecacerta.onrender.com' }}
+          VITE_SERVER_URL: ${{ vars.VITE_SERVER_URL || 'https://pecacerta-wnx7.onrender.com' }}
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

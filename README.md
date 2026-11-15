@@ -3,7 +3,7 @@
 Quiz em tempo real para revisar **para que serve cada peça do computador** e se ela é de **entrada, saída ou híbrida**. O professor projeta a tela na TV; os alunos jogam pelo Chromebook ou celular.
 
 - **Jogar:** https://fernandobalbino.github.io/pecacerta/
-- **Servidor (Render):** https://pecacerta.onrender.com/health
+- **Servidor (Render):** https://pecacerta-wnx7.onrender.com/health
 
 ## Como funciona
 1. O professor clica em **Sou professor** e a sala abre com um código de 4 letras.
@@ -30,7 +30,7 @@ npm run e2e          # partida completa com prints em qa-evidence/ (precisa do s
 ```
 
 ## Publicação
-- **Telas:** GitHub Pages, pelo workflow `.github/workflows/pages.yml` a cada push na `main`. O endereço do servidor vem da variável `VITE_SERVER_URL` do repositório (padrão: `https://pecacerta.onrender.com`).
+- **Telas:** GitHub Pages, pelo workflow `.github/workflows/pages.yml` a cada push na `main`. O endereço do servidor vem da variável `VITE_SERVER_URL` do repositório (padrão: `https://pecacerta-wnx7.onrender.com`).
 - **Servidor:** Render (plano free) pelo `render.yaml`. Só troca mensagens pequenas; imagens e sons saem do GitHub Pages. No plano free ele dorme depois de 15 min sem uso: abra o site uns minutos antes da aula para acordar.
 
 Créditos das imagens e bibliotecas: [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).

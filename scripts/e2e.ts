@@ -1,6 +1,6 @@
 // Partida de ponta a ponta com prints de cada tela: TV (1366×768), dois alunos de verdade e alunos-robô.
 // Uso local (servidor e Vite rodando): node scripts/e2e.ts
-// Teste leve em produção: E2E_URL=https://fernandobalbino.github.io/pecacerta/ SERVER_URL=https://pecacerta.onrender.com ROBOS=2 node scripts/e2e.ts
+// Teste leve em produção: E2E_URL=https://fernandobalbino.github.io/pecacerta/ SERVER_URL=https://pecacerta-wnx7.onrender.com ROBOS=2 node scripts/e2e.ts
 import { chromium, type Page } from 'playwright';
 import { io, type Socket } from 'socket.io-client';
 import { mkdirSync } from 'node:fs';
