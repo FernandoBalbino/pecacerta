@@ -126,6 +126,7 @@ hr { border: 0; border-top: 1px solid var(--line); width: 100%; margin: 4px 0; }
 }
 .lobby-player.off { opacity: 0.45; }
 .lobby-player .roller { font: 700 1rem var(--display); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.lobby-player .roll-word { transform-origin: left center; }
 .lobby-player .roller-done .roll-word { color: #fff; }
 .kick { margin-left: auto; border: 0; background: transparent; color: var(--muted); opacity: 0; transition: opacity 0.2s; padding: 4px 6px; }
 .lobby-player:hover .kick, .kick:focus-visible { opacity: 1; }
